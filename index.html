@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Erika Lopes</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://pay.kiwify.com.br/y8ob8OG?fbclid=PAAabiHDHkb2C8f0qAreoqUrL7HvY--WM7MuwimM8VXUKlD4IsYIkmy2UVQGg"><button class="btn btn-light">Adquira já o seu Ebook</button></a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img id="carousel-image-1" src="" style="height: 100%; width: 100%;" alt="">
+        <div class="container">
+        
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="carousel-image-2" src="" style="height: 100%; width: 100%;" alt="">
+        <div class="container">
+        
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="carousel-image-3" src="" style="height: 100%; width: 100%;" alt="">
+        <div class="container">
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <script>
+    // Verifica o tamanho da tela e altera as imagens do carrossel conforme necessário
+    function changeCarouselImages() {
+      var mobileImage1 = "midia/slide-01-mobile.jpg";
+      var mobileImage2 = "midia/slide-02-mibole.jpg";
+      var mobileImage3 = "midia/slide-03-mobile.jpg";
+  
+      if (window.innerWidth < 768) { // Considerando dispositivos móveis com largura menor que 768 pixels
+        document.getElementById("carousel-image-1").src = mobileImage1;
+        document.getElementById("carousel-image-2").src = mobileImage2;
+        document.getElementById("carousel-image-3").src = mobileImage3;
+      } else {
+        // Se não for um dispositivo móvel, use as imagens originais
+        document.getElementById("carousel-image-1").src = "midia/slide-01.jpg";
+        document.getElementById("carousel-image-2").src = "midia/slide-02.jpg";
+        document.getElementById("carousel-image-3").src = "midia/slide-03.jpg";
+      }
+    }
+  
+    // Chama a função ao carregar a página e quando a janela é redimensionada
+    window.onload = changeCarouselImages;
+    window.onresize = changeCarouselImages;
+  </script>
+  
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="midia/empresaria.jpeg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
+        <h2 class="fw-normal">Empresaria</h2>
+        <p>Diretora administrativa da Vai Sim Turismo Erika sempre assumiu responsabilidades que a fizeram quebrar paradigmas e perceber que era capaz de fazer a diferença levando em consideração sua habilidade de falar com clareza e simpatia. </p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="midia/casal.jpeg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
+        <h2 class="fw-normal">Esposa</h2>
+        <p>Erika é além de empresária, pastora, mãe  e esposa de Pr.Rogerio Lopes!  Viajou o mundo conhecendo inúmeros países... acumulou experiências que te fez uma mulher empreendedora e realizada!</p>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="midia/mae.jpeg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
+        <h2 class="fw-normal">Mãe</h2>
+        <p>Erika, uma mãe dedicada e empresaria de sucesso, equilibra com maestria sua carreira e sua familia. seu filho Roger, com 23 anos, está trilhando seu propio caminho no mundo profissional, enquanto sua filha Emanuelly, de 16 anos, está no auge da adolescência.</p>
+        
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Quem é Erika Lopes. <span style="color: wheat;">Esposa, Mãe, Pastora  e Empresaria.</span></h2>
+        <p class="lead">Formada em coaching de Inteligência Emocional pelo Instituto imagine inteligência e desenvolvimento.</p>
+        <p class="lead">Atua 20 anos como pastora servindo à comunidade por meio da igreja realizou formação em Teologia formação e aconselhamento cristão na área da família.</p>
+        <p class="lead">Empresária no turismo religioso internacional a seis anos especializado em levar grupos para Israel e outros locais incríveis de se conhecer ama levar os princípios da palavra de Deus seja em aconselhamento ou palestra para as famílias Pois é o manual de felicidade no lar.</p>
+        <p class="lead">Ela salienta "não que meu lar seja perfeito mas me esforça a cada dia para praticar esse principio" pois colho incontáveis frutos deste esforço diário.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="height: 500px; width: 500px;" src="./midia/perfil.jpeg" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Mulheres de impacto. <span style="color: wheat;">Despertando sua força interior.</span></h2>
+        <p class="lead">O livro mulheres de Impacto foi idealizado foi idealizado pela escritora Monica Oliveira por meio do Imagine Instituto, empresa dedicada ao desenvolvimento humano que 
+          ativa a missão e proposito abrangendo 7 fundamentos: inteligencia, motivação, atitude, gratidão, iniciativa, novidade e equilibrio. </p>
+          <p class="lead">São 20 coautoras maravilhosas nesta obra, que contam suas vivências e demonstram a força Interior que as fizeram transformar áreas vulneráveis em poder e fraquezas em fortalezas para venceram na jornada da vida.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="height: 550px; width: 500px;" width="500" height="500" src="./midia/capalivro.jpeg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Juntos somos mais fortes. <span style="color: wheat;">A força do amor em parceria.</span></h2>
+        <p class="lead">Ideia de compartilhar nossas experiências de vida.
+          No meu capítulo conto o meu segredo de 25 anos de aliança e cumplicidade com Rogerio Lopes
+        </p>
+        <p class="lead">
+          A cumplicidade no relacionamento é o princípio que traz sabedoria. A  mulher sábia edifica sua casa (Provérbios 14) Quando entendemos que obedecer Esse princípio nos traz fortalecimento e harmonia no nosso lar. Deus nos fez mulher com essa graça de  sermos adjuntoras e apoiadoras.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" style="height: 500px; width: 500px;" src="./midia/casal02.jpeg" width="500" height="500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p>&copy; 2024 Instituto Imagine.</p> 
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" style="margin: 1px;" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+      </svg>
+      <a href="https://www.instagram.com/pra.erikalopes?igsh=cGI5cjFnOXp3bWM0" style="color: wheat;" >@pra.erikalopes</a>
+  </p>
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" style="margin: 1px;" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+      </svg>
+      <a href="https://www.instagram.com/agenciavaisim?igsh=MWtyZ21jdjY5azR6dA==" style="color: wheat;" >@agenciavaisim</a>
+  </p>
+  </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
