@@ -9,6 +9,10 @@ body {
   background-color: rgb(48, 0, 63);
 }
 
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
